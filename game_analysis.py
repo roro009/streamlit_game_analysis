@@ -26,7 +26,8 @@ def visualize_correlation():
     plt.title('Correlation between FG_PCT and PTS')
     plt.xlabel('Field Goal Percentage (FG_PCT)')
     plt.ylabel('Points Scored (PTS)')
-    st.pyplot()
+    fig = plt.subplots()
+    st.pyplot(fig)
 
 def main():
     st.title("Game Analysis")
