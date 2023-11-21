@@ -12,7 +12,7 @@ import streamlit as st
 
 # In[20]:
 
-
+st.set_option('deprecation.showPyplotGlobalUse', False)
 game_details = pd.read_csv("games_details.csv")
 
 # In[27]:
