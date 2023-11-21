@@ -13,7 +13,7 @@ import streamlit as st
 # In[20]:
 
 
-game_details = pd.read_csv('C:/Users/rohan/OneDrive/Desktop/INTRO TO INFORMATICS/LAB/Data_for_project/archive/games_details.csv')
+game_details = pd.read_csv(r"games_details.csv").drop(columns=['Unnamed: 0'])
 
 
 # In[27]:
