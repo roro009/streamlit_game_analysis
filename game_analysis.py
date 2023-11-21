@@ -13,8 +13,7 @@ import streamlit as st
 # In[20]:
 
 
-game_details = pd.read_csv(r"games_details.csv").drop(columns=['Unnamed: 0'])
-
+game_details = pd.read_csv("games_details.csv")
 
 # In[27]:
 
